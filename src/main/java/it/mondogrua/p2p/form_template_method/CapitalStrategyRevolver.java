@@ -1,6 +1,6 @@
 package it.mondogrua.p2p.form_template_method;
 
-public class CapitalStrategyRevolverLoan extends CapitalStrategy {
+public class CapitalStrategyRevolver extends CapitalStrategy {
 
     public double capital(Loan loan) {
         return (loan.outstandingRiskAmount() * loan.duration() * riskFactor(loan))

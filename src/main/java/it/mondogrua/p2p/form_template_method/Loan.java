@@ -42,7 +42,7 @@ public class Loan
 
     public static Loan newRevolverLoan(double commitment, Date expiry,
             Date maturity, int riskRating) {
-        return new Loan(commitment, null, expiry, maturity, riskRating, new CapitalStrategyRevolverLoan());
+        return new Loan(commitment, null, expiry, maturity, riskRating, new CapitalStrategyRevolver());
     }
 
     public static Loan newAdvisedLine(double commitment, Date expiry,
